@@ -3,6 +3,8 @@ package sda.pracadomowa.sklep;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.time.LocalDateTime;
+
 @Data
 @Entity
 @Builder
@@ -17,7 +19,7 @@ public class Produkt {
     private String nazwa;
     private double cena;
     private String nazwaKategorii;
-
+    private String dataSprzedazy;
 
 
 
