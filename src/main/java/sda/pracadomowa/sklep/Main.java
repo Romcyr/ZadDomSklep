@@ -2,6 +2,7 @@ package sda.pracadomowa.sklep;
 
 import sda.pracadomowa.sklep.selecty.DodajProdukt;
 import sda.pracadomowa.sklep.selecty.Select;
+import sda.pracadomowa.sklep.selecty.SzukajProduktuPoKategorii;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,6 +11,7 @@ public class Main {
     public static void main(String[] args) {
         List <Select> listaSelectow = new ArrayList<>(
                 List.of(
+                        new SzukajProduktuPoKategorii(),
                         new DodajProdukt()
 
 
