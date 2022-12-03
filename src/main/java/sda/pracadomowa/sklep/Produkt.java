@@ -16,6 +16,7 @@ public class Produkt {
 
     private String nazwa;
     private double cena;
+    private String nazwaKategorii;
 
 
 

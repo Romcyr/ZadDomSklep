@@ -12,6 +12,7 @@ public class Main {
                 List.of(
                         new DodajProdukt()
 
+
                 )
         );
         System.out.println("Lista wyboru");
